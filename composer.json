@@ -1,0 +1,41 @@
+{
+    "name": "viget/craft-classnames",
+    "description": "Classnames plugin for Craft CMS",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "classnames"
+    ],
+    "support": {
+        "docs": "https://github.com/vigetlabs/craft-classnames/blob/master/README.md",
+        "issues": "https://github.com/vigetlabs/craft-classnames/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Frank",
+            "homepage": "https://www.viget.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "newridetech/php-classnames": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+          "viget\\classnames\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Classnames",
+        "handle": "classnames",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/vigetlabs/craft-classnames/master/CHANGELOG.md",
+        "class": "viget\\classnames\\Classnames"
+    }
+}
