@@ -1,3 +1,5 @@
+<p align="center"><img src="resources/img/plugin-logo.png" width="100"></p>
+
 # Classnames plugin for Craft CMS 3.x
 
 Classnames is a simple Twig function for conditionally joining css class names together in Twig templates, in a way that makes them much more readable. It's like Jed Watson's [Classnames](https://github.com/JedWatson/classnames) but for Twig in Craft.
