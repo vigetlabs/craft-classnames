@@ -1,4 +1,4 @@
-<p align="center"><img src="resources/img/plugin-logo.png" width="100"></p>
+<p align="center"><img src="resources/icon.png" width="100"></p>
 
 # Classnames plugin for Craft CMS 3.x
 
