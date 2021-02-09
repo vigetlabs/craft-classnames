@@ -20,7 +20,7 @@ To install the plugin, follow these instructions.
 
         composer require viget/craft-classnames
 
-3. Install the plugin via `./craft install/plugin classnames` via the CLI, or in the Control Panel, go to Settings → Plugins and click the “Install” button for Classnames.
+3. Install the plugin either via the CLI with `./craft plugin/install classnames` (or if using Craft < 3.5.0 `./craft install/plugin classnames`), or in the Control Panel by going to Settings → Plugins and clicking the “Install” button for Classnames.
 
 ## Using Classnames
 
