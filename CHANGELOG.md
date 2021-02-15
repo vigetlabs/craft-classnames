@@ -9,10 +9,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - n/a
 
 ### Changed
-- Updated install instructions with new plugin/install command for Craft 3.5
+- n/a
 
 ### Deprecated
 - n/a
+
+## 1.0.3 - 2021-02-15
+### Changed
+- Updated install instructions with new `plugin/install` command for Craft 3.5
 
 ## 1.0.2 - 2020-04-09
 ### Changed
