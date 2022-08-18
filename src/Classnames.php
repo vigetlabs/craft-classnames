@@ -6,8 +6,6 @@
  * @copyright Copyright (c) 2019 Viget Labs
  */
 
-namespace viget\classnames;
-
 use viget\classnames\twigextensions\ClassnamesTwigExtension;
 
 use Craft;
@@ -41,7 +39,7 @@ class Classnames extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '1.0.0';
+    public string $schemaVersion = '2.0.0';
 
     // Public Methods
     // =========================================================================
