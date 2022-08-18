@@ -8,13 +8,10 @@
 
 namespace viget\classnames;
 
+use Craft;
 use viget\classnames\twigextensions\ClassnamesTwigExtension;
 
 use craft\base\Plugin;
-use craft\services\Plugins;
-use craft\events\PluginEvent;
-
-use yii\base\Event;
 
 /**
  * Class Classnames
@@ -64,8 +61,4 @@ class Classnames extends Plugin
             __METHOD__
         );
     }
-
-    // Protected Methods
-    // =========================================================================
-
 }

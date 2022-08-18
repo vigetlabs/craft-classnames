@@ -2,7 +2,7 @@
     "name": "viget/craft-classnames",
     "description": "Classnames plugin for Craft CMS",
     "type": "craft-plugin",
-    "version": "2.0.0-RC1",
+    "version": "2.0.0-RC2",
     "keywords": [
         "craft",
         "cms",
