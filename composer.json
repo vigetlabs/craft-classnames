@@ -8,7 +8,10 @@
         "cms",
         "craftcms",
         "craft-plugin",
-        "classnames"
+        "classnames",
+        "tailwind",
+        "css",
+        "twig"
     ],
     "support": {
         "docs": "https://github.com/vigetlabs/craft-classnames/blob/master/README.md",
@@ -22,12 +25,13 @@
         }
     ],
     "require": {
+        "php": "^8.0.2",
         "craftcms/cms": "^4.0.0",
         "newridetech/php-classnames": "^1.2"
     },
     "autoload": {
         "psr-4": {
-          "viget\\classnames\\": "src/"
+            "viget\\classnames\\": "src/"
         }
     },
     "extra": {
@@ -37,5 +41,13 @@
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/vigetlabs/craft-classnames/master/CHANGELOG.md",
         "class": "viget\\classnames\\Classnames"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
     }
 }
