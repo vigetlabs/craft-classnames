@@ -1,12 +1,12 @@
 <p align="center"><img src="resources/icon.png" width="100"></p>
 
-# Classnames plugin for Craft CMS 3.x
+# Classnames plugin for Craft CMS 4.x
 
 Classnames is a simple Twig function for conditionally joining css class names together in Twig templates, in a way that makes them much more readable. It's like Jed Watson's [Classnames](https://github.com/JedWatson/classnames) but for Twig in Craft.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 4.0.0 or later.
 
 ## Installation
 
@@ -20,7 +20,7 @@ To install the plugin, follow these instructions.
 
         composer require viget/craft-classnames
 
-3. Install the plugin either via the CLI with `./craft plugin/install classnames` (or if using Craft < 3.5.0 `./craft install/plugin classnames`), or in the Control Panel by going to Settings → Plugins and clicking the “Install” button for Classnames.
+3. Install the plugin either via the CLI with `./craft plugin/install classnames`, or in the Control Panel by going to Settings → Plugins and clicking the “Install” button for Classnames.
 
 ## Using Classnames
 

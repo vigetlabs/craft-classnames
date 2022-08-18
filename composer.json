@@ -14,7 +14,7 @@
         "twig"
     ],
     "support": {
-        "docs": "https://github.com/vigetlabs/craft-classnames/blob/master/README.md",
+        "docs": "https://github.com/vigetlabs/craft-classnames/blob/v2/README.md",
         "issues": "https://github.com/vigetlabs/craft-classnames/issues"
     },
     "license": "MIT",
@@ -39,7 +39,7 @@
         "handle": "classnames",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/vigetlabs/craft-classnames/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/vigetlabs/craft-classnames/v2/CHANGELOG.md",
         "class": "viget\\classnames\\Classnames"
     },
     "config": {

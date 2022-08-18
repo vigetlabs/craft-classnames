@@ -1,16 +1,15 @@
 <?php
 /**
- * Classnames plugin for Craft CMS 3.x
+ * Classnames plugin for Craft CMS 4.x
  *
  * @link      https://www.viget.com/
- * @copyright Copyright (c) 2019 Viget Labs
+ * @copyright Copyright (c) 2022 Viget Labs
  */
 
 namespace viget\classnames;
 
 use viget\classnames\twigextensions\ClassnamesTwigExtension;
 
-use Craft;
 use craft\base\Plugin;
 use craft\services\Plugins;
 use craft\events\PluginEvent;
@@ -33,7 +32,7 @@ class Classnames extends Plugin
     /**
      * @var Classnames
      */
-    public static $plugin;
+    public static Plugin $plugin;
 
     // Public Properties
     // =========================================================================
@@ -49,21 +48,12 @@ class Classnames extends Plugin
     /**
      * @inheritdoc
      */
-    public function init()
+    public function init(): void
     {
         parent::init();
         self::$plugin = $this;
 
         Craft::$app->view->registerTwigExtension(new ClassnamesTwigExtension());
-
-        Event::on(
-            Plugins::class,
-            Plugins::EVENT_AFTER_INSTALL_PLUGIN,
-            function (PluginEvent $event) {
-                if ($event->plugin === $this) {
-                }
-            }
-        );
 
         Craft::info(
             Craft::t(

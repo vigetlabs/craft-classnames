@@ -1,9 +1,9 @@
 <?php
 /**
- * Classnames plugin for Craft CMS 3.x
+ * Classnames plugin for Craft CMS 4.x
  *
  * @link      https://www.viget.com/
- * @copyright Copyright (c) 2019 Viget Labs
+ * @copyright Copyright (c) 2022 Viget Labs
  */
 
 /**
