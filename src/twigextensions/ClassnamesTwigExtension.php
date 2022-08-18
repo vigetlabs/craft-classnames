@@ -1,17 +1,15 @@
 <?php
 /**
- * Classnames plugin for Craft CMS 3.x
+ * Classnames plugin for Craft CMS 4.x
  *
  * @link      https://www.viget.com/
- * @copyright Copyright (c) 2019 Viget Labs
+ * @copyright Copyright (c) 2022 Viget Labs
  */
 
 namespace viget\classnames\twigextensions;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
-
-use Craft;
 
 use Newride\Classnames\Classnames as PhpClassnames;
 
@@ -24,11 +22,8 @@ class ClassnamesTwigExtension extends AbstractExtension
 {
     // Public Methods
     // =========================================================================
-
-    /**
-     * @inheritdoc
-     */
-    public function getName()
+    
+    public function getName(): string
     {
         return 'Classnames';
     }
