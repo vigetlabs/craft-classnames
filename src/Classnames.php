@@ -6,6 +6,8 @@
  * @copyright Copyright (c) 2019 Viget Labs
  */
 
+namespace viget\classnames;
+
 use viget\classnames\twigextensions\ClassnamesTwigExtension;
 
 use Craft;
