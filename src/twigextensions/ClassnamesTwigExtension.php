@@ -8,7 +8,8 @@
 
 namespace viget\classnames\twigextensions;
 
-use viget\classnames\Classnames;
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFunction;
 
 use Craft;
 
@@ -19,7 +20,7 @@ use Newride\Classnames\Classnames as PhpClassnames;
  * @package   Classnames
  * @since     1.0.0
  */
-class ClassnamesTwigExtension extends \Twig_Extension
+class ClassnamesTwigExtension extends AbstractExtension
 {
     // Public Methods
     // =========================================================================
@@ -35,11 +36,11 @@ class ClassnamesTwigExtension extends \Twig_Extension
     /**
      * @inheritdoc
      */
-    public function getFunctions()
+    public function getFunctions(): array
     {
         return [
-            new \Twig_SimpleFunction('classNames', [$this, 'classNames']),
-            new \Twig_SimpleFunction('cx', [$this, 'classNames']),
+            new TwigFunction('classNames', [$this, 'classNames']),
+            new TwigFunction('cx', [$this, 'classNames']),
         ];
     }
 
@@ -48,7 +49,7 @@ class ClassnamesTwigExtension extends \Twig_Extension
      *
      * @return string
      */
-    public function classNames(...$classnames)
+    public function classNames(...$classnames): string
     {
         return PhpClassnames::make(...$classnames);
     }
