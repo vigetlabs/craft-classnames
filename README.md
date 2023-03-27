@@ -8,6 +8,8 @@ Classnames is a simple Twig function for conditionally joining css class names t
 
 This plugin requires Craft CMS 4.0.0 or later.
 
+For Craft 3 users, [view the v1 branch](https://github.com/vigetlabs/craft-classnames/tree/v1).
+
 ## Installation
 
 To install the plugin, follow these instructions.
