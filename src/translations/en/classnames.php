@@ -7,7 +7,7 @@
  */
 
 /**
- * @author    Jeremy Frank
+ * @author    Viget
  * @package   Classnames
  * @since     1.0.0
  */

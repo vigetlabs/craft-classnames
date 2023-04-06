@@ -14,7 +14,7 @@ use Twig\TwigFunction;
 use Newride\Classnames\Classnames as PhpClassnames;
 
 /**
- * @author    Jeremy Frank
+ * @author    Viget
  * @package   Classnames
  * @since     1.0.0
  */
