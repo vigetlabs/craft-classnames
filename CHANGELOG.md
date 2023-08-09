@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0.1 - 2023-08-09
+### Changed
+- Update plugin author name
+
+### Fixed
+- Fixed plugin icon not showing up in the CP
+
 ## 2.0.0 - 2022-08-18
 ### Added
 - Initial Craft CMS 4 release
